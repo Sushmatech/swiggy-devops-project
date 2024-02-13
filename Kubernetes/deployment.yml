@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: swiggy-app
-        image: 654654349563.dkr.ecr.us-east-2.amazonaws.com/sush:latest
+        image: 654654349563.dkr.ecr.us-east-2.amazonaws.com/check:latest
         imagePullPolicy: "Always"
         ports:
-        - containerPort: 80
+        - containerPort: 3000
