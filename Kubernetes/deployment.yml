@@ -14,7 +14,6 @@ spec:
       labels:
         app: swiggy-app
     spec:
-      terminationGracePeriodSeconds: 30
       containers:
       - name: swiggy-app
         image: 654654349563.dkr.ecr.us-east-2.amazonaws.com/sush:latest
